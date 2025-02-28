@@ -21,3 +21,10 @@ sudo apt install python3-pip
 python3 -m venv venv
 pip install django
 source venv/bin/activate
+
+
+python3 manage.py runserver
+
+cd client/
+npm install
+npm run dev
